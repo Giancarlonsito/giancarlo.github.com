@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    /* Separacion del contenido de los bordes para dar efecto de columna */
+    --page-space: 8rem;
+    --profile-picture: 1.7rem;
+}
+
+/* Estilos generales */
+body {
+    background-color: #222;
+}
+
+.button {
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    font-size: .6rem;
+    padding: .6rem 1.4rem;
+    background-color: #242421;
+    border: 1px solid #777;
+    border-radius: .3rem;
+}
+
+
+/* Header */
+header {
+    background-color: #2c2c27;
+    width: 100%;
+}
+
+.nav_menu {
+    margin: auto;
+    padding: 0.5rem var(--page-space);
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242421;
+}
+
+.profile {
+    display: flex;
+    color: #bbb;
+    font-size: .7rem;
+    gap: .5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile-picture {
+    width: var(--profile-picture);
+    height: var(--profile-picture);
+    border-radius: 50%;
+}
+
+/* Barra de navegacion */
+    .navbar_container-list{
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-link {
+        font-size: .8rem;
+        padding: .7rem;
+        color: #bbb;
+        text-decoration: none;
+
+        
+    }
+    .nav-link:hover {
+        color: #eee;
+    }
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* Header Presentation */
+
+.header-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    padding: 3rem;
+}
+
+.download-cv:hover {
+    background-color: #353532;
+}
+
+.presentation-data {
+    text-align: center;
+}
+.presentation-ocupation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2.6rem;
+    color: #e7e761;
+}
+
+.presentation-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #eee;
+}
+
+.presentation-description {
+    font-size: .8rem;
+    margin-block: .8rem;
+    color: #ccc;
+}
+
+.buttons_container {
+    display: flex;
+    gap: .7rem;
+
+}
+.fb-button {
+    color: #bbb;
+    background-color: #264a81;
+}
+.fb-button:hover {
+    background-color: #2d5796;
+}
+
+
+.gh-button {
+    color: #bbb;
+    background-color: #462681;
+}
+.gh-button:hover {
+    background-color: #56309c;
+}
